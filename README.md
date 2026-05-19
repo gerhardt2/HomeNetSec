@@ -23,19 +23,19 @@ Fique à vontade para explorar meus outros projetos e ferramentas no GitHub:
 ## 🖼️ Screenshots
 
 ### SOC Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
+<img width="1885" height="846" alt="dashboard" src="https://github.com/user-attachments/assets/8f3dbe5f-ba32-4b6f-857b-f0438182ce24" />
 
 ### Dispositivos Encontrados
-![Dispositivos](docs/screenshots/dispositivos.png)
+<img width="1867" height="600" alt="dispositivos" src="https://github.com/user-attachments/assets/f06a5d13-1f90-49f1-abac-a1c7f6f1626f" />
 
 ### Vulnerabilidades Criticas
-![Vulnerabilidades](docs/screenshots/vulnerabilidades.png)
+<img width="1685" height="627" alt="Vulnerabilidades" src="https://github.com/user-attachments/assets/dd5325e7-fd21-4016-82e4-4bfe87ce6424" />
 
 ### Historico de Scans
-![Historico](docs/screenshots/historico.png)
+<img width="1897" height="795" alt="historico" src="https://github.com/user-attachments/assets/c4494f2e-a590-49f6-a40e-79dc7d20946e" />
 
 ### Configuracoes
-![Configuracoes](docs/screenshots/configuracoes.png)
+<img width="1240" height="761" alt="Configuracoes" src="https://github.com/user-attachments/assets/716b7381-1d3c-4343-af20-dc1d74b437b7" />
 
 ---
 
