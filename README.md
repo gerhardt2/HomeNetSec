@@ -1,24 +1,49 @@
 # HomeNetSec
 
-HomeNetSec is a professional, defensively-oriented network security scanner for home and lab environments.
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-Frontend-black?logo=next.js)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![Licença](https://img.shields.io/badge/Uso-Educacional%20%2F%20Autorizado-yellow)
 
-> **Warning:** This tool is intended for educational purposes, personal auditing, and use on authorized networks only. It should not be used for malicious purposes.
+HomeNetSec é um scanner de segurança de rede profissional e defensivo, desenvolvido para ambientes domésticos e de laboratório.
 
-## Features
-- **Device Discovery:** ARP and Ping sweeps to find connected devices.
-- **Port Scanning:** Asynchronous TCP port scanning for common services.
-- **Vulnerability Analysis:** Basic defensive checks (e.g., exposed FTP, Telnet).
-- **Real-time Dashboard:** Built with Next.js, Tailwind CSS, Framer Motion, and WebSockets.
-- **Reporting:** Export security assessments to PDF.
+> **⚠️ Aviso:** Esta ferramenta é destinada exclusivamente para fins educacionais, auditoria pessoal e uso em redes autorizadas. O uso não autorizado é estritamente proibido.
 
-## Requirements (Windows)
+---
+
+## 👤 Sobre o autor
+
+Este projeto faz parte do meu portfólio pessoal de segurança.  
+Fique à vontade para explorar meus outros projetos e ferramentas no GitHub:
+
+**🔗 [github.com/gerhardt2](https://github.com/gerhardt2)**
+
+---
+
+## ✨ Funcionalidades
+
+| Funcionalidade | Descrição |
+|---|---|
+| 🔍 **Descoberta de dispositivos** | Varredura ARP e ping para encontrar dispositivos conectados |
+| 🔌 **Escaneamento de portas** | Escaneamento TCP assíncrono para serviços comuns |
+| 🛡️ **Análise de vulnerabilidades** | Verificações defensivas (ex.: FTP e Telnet expostos) |
+| 📊 **Dashboard em tempo real** | Desenvolvido com Next.js, Tailwind CSS, Framer Motion e WebSockets |
+| 📄 **Relatórios em PDF** | Exporte avaliações de segurança em PDF |
+
+---
+
+## 🖥️ Requisitos (Windows)
+
 - Node.js 20+
 - Python 3.11+
-- Npcap (if you plan to use `scapy` natively on Windows for ARP scanning).
+- [Npcap](https://npcap.com/) — necessário para varredura ARP com Scapy no Windows
 
-## Setup & Run Locally
+---
+
+## 🚀 Instalação e execução local
 
 ### 1. Backend (FastAPI)
+
 ```bash
 cd backend
 python -m venv venv
@@ -28,13 +53,15 @@ uvicorn main:app --reload
 ```
 
 ### 2. Frontend (Next.js)
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-### 3. Docker Compose (Alternative)
+### 3. Docker Compose (alternativa)
+
 ```bash
 docker-compose up --build
 ```
