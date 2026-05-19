@@ -1,0 +1,15 @@
+# Ignore root IDE files
+.vscode/
+.idea/
+
+# Ignore backend environments
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/reports_output/
+
+# Ignore frontend modules
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/

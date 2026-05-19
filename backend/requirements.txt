@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+websockets
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+scapy
+reportlab
+psutil
+aiofiles
+pydantic
