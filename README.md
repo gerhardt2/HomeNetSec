@@ -20,6 +20,25 @@ Fique à vontade para explorar meus outros projetos e ferramentas no GitHub:
 
 ---
 
+## 🖼️ Screenshots
+
+### SOC Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Dispositivos Encontrados
+![Dispositivos](docs/screenshots/dispositivos.png)
+
+### Vulnerabilidades Criticas
+![Vulnerabilidades](docs/screenshots/vulnerabilidades.png)
+
+### Historico de Scans
+![Historico](docs/screenshots/historico.png)
+
+### Configuracoes
+![Configuracoes](docs/screenshots/configuracoes.png)
+
+---
+
 ## ✨ Funcionalidades
 
 | Funcionalidade | Descrição |
